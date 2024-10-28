@@ -1,0 +1,18 @@
+using System;
+
+namespace MathApp
+{
+    public class MathClass
+    {
+        // Method that takes two integers, performs a math operation on the first, and displays the second
+        public void PerformOperation(int number1, int number2)
+        {
+            // Perform a math operation on the first integer (e.g., multiplying by 2)
+            int result = number1 * 2;
+
+            // Display the result of the math operation and the second integer
+            Console.WriteLine($"Result of the operation on the first number: {result}");
+            Console.WriteLine($"Second number: {number2}");
+        }
+    }
+}
